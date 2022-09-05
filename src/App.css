@@ -1,0 +1,22 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#marco-polo-toggler{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  border: 1px solid black;
+}
+#marco-polo-toggler:hover{
+  background-color: #000;
+  color: white;
+  border: 1px solid blue;
+}
